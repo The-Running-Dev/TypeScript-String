@@ -1,0 +1,44 @@
+{
+  "name": "typescript-string-extensions",
+  "version": "1.0.0",
+  "description": "Extensions to String",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint *.ts",
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Running-Dev/TypeScript-String.git"
+  },
+  "keywords": [
+    "typescript",
+    "string",
+    "extensions"
+  ],
+  "author": "The Running Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/The-Running-Dev/TypeScript-String/issues"
+  },
+  "homepage": "https://github.com/The-Running-Dev/TypeScript-String#readme",
+  "dependencies": {
+    "@types/jasmine": "^2.5.53",
+    "@types/node": "^8.0.10",
+    "jasmine": "^2.6.0",
+    "ts-loader": "^2.2.2",
+    "tslint": "^5.5.0",
+    "tslint-config-olo": "^0.1.0",
+    "typescript": "^2.4.1",
+    "webpack": "^3.1.0"
+  },
+  "devDependencies": {
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-promise": "^0.1.0",
+    "karma-typescript-preprocessor2": "^1.2.1",
+    "karma-webpack": "^2.0.4",
+    "phantomjs-prebuilt": "^2.1.14"
+  }
+}
