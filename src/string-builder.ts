@@ -1,5 +1,4 @@
-import {String} from './string';
-
+/*
 export class StringBuilder {
     public Values = [];
 
@@ -22,4 +21,4 @@ export class StringBuilder {
     public Clear() {
         this.Values = [];
     }
-}
+}*/

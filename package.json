@@ -2,7 +2,7 @@
   "name": "typescript-string-extensions",
   "version": "1.0.0",
   "description": "Extensions to String",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "lint": "tslint *.ts",
     "test": "karma start"

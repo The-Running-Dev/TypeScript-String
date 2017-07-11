@@ -1,7 +1,7 @@
 var path = require('path');
 
 module.exports = {
-    entry: './src/string-extensions.ts',
+    entry: './src/index.ts',
     target: 'node',
     module: {
         loaders: [
@@ -14,6 +14,6 @@ module.exports = {
     output: {
         libraryTarget: 'commonjs',
         path: path.join(__dirname, '.webpack'),
-        filename: 'string.js'
+        filename: 'index.js'
     },
 };

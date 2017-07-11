@@ -1,5 +1,9 @@
-.idea/**
-.vscode/**
+.vscode/
+.webpack/
+.idea/
+node_modules/
 
-node_modules/**
-src/*.js
+src/**/.js
+src/**/.map.js
+.gui
+README.md

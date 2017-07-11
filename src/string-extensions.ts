@@ -61,9 +61,9 @@ String.Format = (format, ...args): string => {
             match = s[1].replace('}', '');
         }
 
-        let arg = String.parsePattern(match, args[i]);
+        //let arg = String.parsePattern(match, args[i]);
 
-        return typeof arg != 'undefined' && arg != null ? arg : String.Empty;
+        //return typeof arg != 'undefined' && arg != null ? arg : String.Empty;
     });
 };
 
